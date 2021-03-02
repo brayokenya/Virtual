@@ -160,9 +160,8 @@ body {
                                         height="40" width="40"></span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" id="edit_menu" style="display:none"><a
-                                    class="dropdown-item" href="welcome"><i class="  fa fa-edit "></i> Edit Profile</a>
-                                <div class="dropdown-divider"></div><a class="dropdown-item" href="welcome" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();"><i
+                                    class="dropdown-item" href=""><i class="  fa fa-edit "></i> Edit Profile</a>
+                                <div class="dropdown-divider"></div><a class="dropdown-item" href="/"><i
                                         class=" fa fa-power-off  "></i> Logout</a>
                                 <form id="logout-form" action="" method="POST" style="display: none;">
                                     <input type="hidden" name="_token" value="1C5h289Ij2qc89RhfsIGTN4cvsa52ND56aBBHYPq">
@@ -230,9 +229,8 @@ body {
 
 
 
-                <li class=" nav-item" id="transaction_report_li"><a
-                        href="https://uat.evirtualpay.com/vp_interface/transaction-report"><i
-                            class="fa fa-check-circle"></i><span class="menu-title" data-i18n="Dashboard">Successful
+                <li class=" nav-item" id="transaction_report_li"><a href=""><i class="fa fa-check-circle"></i><span
+                            class="menu-title" data-i18n="Dashboard">Successful
                             Transactions</span></a>
                 </li>
 
@@ -242,10 +240,8 @@ body {
 
 
 
-                <li class=" nav-item" id="payment_li"><a
-                        href="https://uat.evirtualpay.com/vp_interface/payment-branding/OiKSML7DDki6MboCrE3aaKEYSYrMmAoSgS5WRnhk4q8nZN4Koij7LT"
-                        target="_blank"><i class="fa fa-shopping-bag"></i><span class="menu-title"
-                            data-i18n="Dashboard">My Checkout Page</span></a>
+                <li class=" nav-item" id="payment_li"><a href=""><i class="fa fa-shopping-bag"></i><span
+                            class="menu-title" data-i18n="Dashboard">My Checkout Page</span></a>
                 </li>
 
 
@@ -254,9 +250,8 @@ body {
 
 
 
-                <li class=" nav-item" id="refund_li"><a
-                        href="https://uat.evirtualpay.com/vp_interface/refund-request"><i class="fa fa-undo"></i><span
-                            class="menu-title" data-i18n="Dashboard">Refund Request
+                <li class=" nav-item" id="refund_li"><a href=""><i class="fa fa-undo"></i><span class="menu-title"
+                            data-i18n="Dashboard">Refund Request
                             <button type="button" class="btn btn-danger btn-circle btn-sm" style="width: 30px; 
             height: 30px; 
             padding: 6px 0px; 
@@ -275,10 +270,8 @@ body {
 
 
 
-                <li class=" nav-item" id="settlement_li"><a
-                        href="https://uat.evirtualpay.com/vp_interface/settlement-bank"><i
-                            class="  fa fa-angle-double-right   "></i><span class="menu-title"
-                            data-i18n="Dashboard">Settlements</span></a>
+                <li class=" nav-item" id="settlement_li"><a href=""><i class="  fa fa-angle-double-right   "></i><span
+                            class="menu-title" data-i18n="Dashboard">Settlements</span></a>
                 </li>
 
 
@@ -286,8 +279,8 @@ body {
 
 
 
-                <li class=" nav-item" id="settlement_li"><a href="https://uat.evirtualpay.com/vp_interface/reports"><i
-                            class="fa fa-bars"></i><span class="menu-title" data-i18n="Dashboard">Reports</span></a>
+                <li class=" nav-item" id="settlement_li"><a href=""><i class="fa fa-bars"></i><span class="menu-title"
+                            data-i18n="Dashboard">Reports</span></a>
                 </li>
 
 
@@ -299,8 +292,8 @@ body {
                     <ul class="menu-content show" style="background: #2E2937 ;">
 
 
-                        <li class=" nav-item" id="user_li"><a href="https://uat.evirtualpay.com/vp_interface/users"><i
-                                    class=" fa fa-user "></i><span class="menu-title" data-i18n="Dashboard">User
+                        <li class=" nav-item" id="user_li"><a href=""><i class=" fa fa-user "></i><span
+                                    class="menu-title" data-i18n="Dashboard">User
                                     Management</span></a>
                         </li>
 
@@ -308,8 +301,8 @@ body {
 
 
 
-                        <li class=" nav-item" id="roles_li"><a href="https://uat.evirtualpay.com/vp_interface/roles"><i
-                                    class="  fa fa-key   "></i><span class="menu-title" data-i18n="Dashboard">Role
+                        <li class=" nav-item" id="roles_li"><a href=""><i class="  fa fa-key   "></i><span
+                                    class="menu-title" data-i18n="Dashboard">Role
                                     Management</span></a>
                         </li>
 
@@ -326,17 +319,14 @@ body {
                     <ul class="menu-content show" style="background: #2E2937 ;">
 
 
-                        <li class=" nav-item" id="api_li"><a
-                                href="https://uat.evirtualpay.com/vp_interface/api-management"><i
-                                    class="fa fa-key"></i><span class="menu-title" data-i18n="Dashboard">API Credentials
+                        <li class=" nav-item" id="api_li"><a href=""><i class="fa fa-key"></i><span class="menu-title"
+                                    data-i18n="Dashboard">API Credentials
                                 </span></a>
                         </li>
 
 
-                        <li class=" nav-item" id="api_li"><a
-                                href="https://uat.evirtualpay.com/vp_interface/pdf_guide"><i
-                                    class=" fa fa-question-circle "></i><span class="menu-title"
-                                    data-i18n="Dashboard">User Guide</span></a>
+                        <li class=" nav-item" id="api_li"><a href=""><i class=" fa fa-question-circle "></i><span
+                                    class="menu-title" data-i18n="Dashboard">User Guide</span></a>
                         </li>
 
 
@@ -348,17 +338,8 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-                <li class=" nav-item"> <a class="dropdown-item" href="welcome" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();"><i
-                            class="fa fa-power-off"></i> Logout</a>
+                <li class=" nav-item"> <a class="dropdown-item" href="/"><i class="fa fa-power-off"></i>
+                        Logout</a>
                     <form id="logout-form" action="welcome" method="POST" style="display: none;">
                         <input type="hidden" name="_token" value="1C5h289Ij2qc89RhfsIGTN4cvsa52ND56aBBHYPq">
                     </form>
@@ -396,955 +377,967 @@ body {
 
     <!-- BEGIN: Content-->
     <div class="app-content content">
+
         <div class="content-overlay"></div>
         <div class="header-navbar-shadow"></div>
         <div class="content-wrapper">
-            <section id="horizontal-vertical">
-                <div class="col-12">
-                    <h2 class="content-header-title float-left mb-0">Monitoring</h2>
-                </div>
-            </section>
-        </div>
 
 
-        <div class="row">
-            <div class="col-xl-4 col-md-4 col-sm-6">
-                <div class="card text-center">
-                    <div class="card-content">
-                        <div class="card-body">
-                            <div style="font-size:20px;display:inline">USD 14,456
+            <form method="POST" action="" enctype="multipart/form-data" class="add_user_form" id="export_btn">
+
+                <input type="hidden" name="_token" value="gASzd3tZfEzxPAeUM7HuCairWkiB8sFInBuKWGXG">
+                <div class="content-header row">
+                    <div class="content-header-left col-md-12 col-12 mb-2">
+                        <div class="row breadcrumbs-top">
+                            <div class="col-12">
+                                <h2 class="content-header-title float-left mb-0">Dashboard</h2>
                             </div>
-                            <div class="avatar bg-rgba-info p-50 m-0 mb-1">
-                                <div class="avatar-content">
-                                    <i class="fa fa-usd" style="font-size:10px;color:#163782"></i>
-                                </div>
-                            </div>
-
-
-                            <div class="card-body px-0 pb-0">
-                                <div id="goal-overview-chart" class="mt-75"></div>
-                                <div class="row text-center mx-0">
-                                    <div
-                                        class="col-6 border-top border-right d-flex align-items-between flex-column py-1">
-                                        <p class="mb-50">Total Value</p>
-                                        <p class="font-large-1 text-bold-700" id="usd_rec"></p>
-                                    </div>
-                                    <div class="col-6 border-top d-flex align-items-between flex-column py-1">
-                                        <p class="mb-50">Refund</p>
-                                        <p class="font-large-1 text-bold-700" id="usd_ref"></p>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
-            </div>
+
+
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <div style="font-size:20px;display:inline">USD 14,456
+                                    </div>
+                                    <div class="avatar bg-rgba-info p-50 m-0 mb-1">
+                                        <div class="avatar-content">
+                                            <i class="fa fa-usd" style="font-size:10px;color:#163782"></i>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="card-body px-0 pb-0">
+                                        <div id="goal-overview-chart" class="mt-75"></div>
+                                        <div class="row text-center mx-0">
+                                            <div
+                                                class="col-6 border-top border-right d-flex align-items-between flex-column py-1">
+                                                <p class="mb-50">Total Value USD 14,456</p>
+                                                <p class="font-large-1 text-bold-700" id="usd_rec"></p>
+                                            </div>
+                                            <div class="col-6 border-top d-flex align-items-between flex-column py-1">
+                                                <p class="mb-50">Refund USD 1,000</p>
+                                                <p class="font-large-1 text-bold-700" id="usd_ref"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
 
 
 
-        </div>
+                </div>
 
 
 
-    </div> -->
-    <!-- END: Content-->
+        </div> -->
+        <!-- END: Content-->
 
-    <div class="sidenav-overlay"></div>
-    <div class="drag-target"></div>
+        <div class="sidenav-overlay"></div>
+        <div class="drag-target"></div>
 
-    <!-- BEGIN: Footer-->
+        <!-- BEGIN: Footer-->
 
-    <!-- END: Footer-->
+        <!-- END: Footer-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.js" integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrNMjRQSTl4xG8oJRpgU2o9I7HQ==" crossorigin="anonymous"></script> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.css" integrity="sha512-0nkKORjFgcyxv3HbE4rzFUlENUMNqic/EzDIeYCgsKa/nwqr2B91Vu/tNAu4Q0cBuG4Xe/D1f/freEci/7GDRA==" crossorigin="anonymous" /> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js"
-        integrity="sha512-rMGGF4wg1R73ehtnxXBt5mbUfN9JUJwbk21KMlnLZDJh7BkPmeovBuddZCENJddHYYMkCh9hPFnPmS9sspki8g=="
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.min.css"
-        integrity="sha512-yVvxUQV0QESBt1SyZbNJMAwyKvFTLMyXSyBHDO4BG5t7k/Lw34tyqlSDlKIrIENIzCl+RVUNjmCPG+V/GMesRw=="
-        crossorigin="anonymous" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.js" integrity="sha512-eSeh0V+8U3qoxFnK3KgBsM69hrMOGMBy3CNxq/T4BArsSQJfKVsKb5joMqIPrNMjRQSTl4xG8oJRpgU2o9I7HQ==" crossorigin="anonymous"></script> -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.css" integrity="sha512-0nkKORjFgcyxv3HbE4rzFUlENUMNqic/EzDIeYCgsKa/nwqr2B91Vu/tNAu4Q0cBuG4Xe/D1f/freEci/7GDRA==" crossorigin="anonymous" /> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js"
+            integrity="sha512-rMGGF4wg1R73ehtnxXBt5mbUfN9JUJwbk21KMlnLZDJh7BkPmeovBuddZCENJddHYYMkCh9hPFnPmS9sspki8g=="
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.min.css"
+            integrity="sha512-yVvxUQV0QESBt1SyZbNJMAwyKvFTLMyXSyBHDO4BG5t7k/Lw34tyqlSDlKIrIENIzCl+RVUNjmCPG+V/GMesRw=="
+            crossorigin="anonymous" />
 
-    <!-- BEGIN: Vendor JS-->
-    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/vendors.min.js">
-    </script>
-    <!-- BEGIN Vendor JS-->
+        <!-- BEGIN: Vendor JS-->
+        <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/vendors.min.js">
+        </script>
+        <!-- BEGIN Vendor JS-->
 
-    <!-- BEGIN: Page Vendor JS-->
-    <!-- END: Page Vendor JS-->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
+        <!-- BEGIN: Page Vendor JS-->
+        <!-- END: Page Vendor JS-->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
 
-    <!-- BEGIN: Vendor JS-->
-    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/vendors.min.js">
-    </script>
-    <!-- BEGIN Vendor JS-->
-    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/extensions/moment.min.js">
-    </script>
-    <!-- BEGIN: Page Vendor JS-->
-    <script
-        src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/pdfmake.min.js">
-    </script>
-    <script
-        src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/vfs_fonts.js">
-    </script>
-    <script
-        src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/datatables.min.js">
-    </script>
-    <script
-        src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/datatables.buttons.min.js">
-    </script>
-    <script
-        src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/buttons.html5.min.js">
-    </script>
-    <script
-        src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/buttons.print.min.js">
-    </script>
-    <script
-        src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/buttons.bootstrap.min.js">
-    </script>
-    <script
-        src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js">
-    </script>
-    <!-- END: Page Vendor JS-->
+        <!-- BEGIN: Vendor JS-->
+        <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/vendors.min.js">
+        </script>
+        <!-- BEGIN Vendor JS-->
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/extensions/moment.min.js">
+        </script>
+        <!-- BEGIN: Page Vendor JS-->
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/pdfmake.min.js">
+        </script>
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/vfs_fonts.js">
+        </script>
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/datatables.min.js">
+        </script>
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/datatables.buttons.min.js">
+        </script>
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/buttons.html5.min.js">
+        </script>
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/buttons.print.min.js">
+        </script>
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/buttons.bootstrap.min.js">
+        </script>
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js">
+        </script>
+        <!-- END: Page Vendor JS-->
 
-    <!-- BEGIN: Theme JS-->
-    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/core/app-menu.js"></script>
-    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/core/app.js"></script>
+        <!-- BEGIN: Theme JS-->
+        <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/core/app-menu.js"></script>
+        <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/core/app.js"></script>
 
 
 
-    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/components.js">
-    </script>
-    <!-- END: Theme JS-->
-    <script
-        src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/forms/select/select2.full.min.js">
-    </script>
+        <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/components.js">
+        </script>
+        <!-- END: Theme JS-->
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/forms/select/select2.full.min.js">
+        </script>
 
-    <script
-        src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/forms/select/form-select2.js">
-    </script>
-    <!-- BEGIN: Page JS-->
-    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/datatables/datatable.js">
-    </script>
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/forms/select/form-select2.js">
+        </script>
+        <!-- BEGIN: Page JS-->
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/datatables/datatable.js">
+        </script>
 
-    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/pages/app-user.js">
-    </script>
-    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/charts/apexcharts.min.js">
-    </script>
+        <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/pages/app-user.js">
+        </script>
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/charts/apexcharts.min.js">
+        </script>
 
-    <script
-        src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/extensions/sweetalert2.all.min.js">
-    </script>
+        <script
+            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/extensions/sweetalert2.all.min.js">
+        </script>
 
-    <!-- BEGIN: Page JS-->
+        <!-- BEGIN: Page JS-->
 
-    <!-- Typeahead.js Bundle -->
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>  
+        <!-- Typeahead.js Bundle -->
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>  
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>   -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-
-    <script>
-    $(window).bind("load", function() {
-        $(".nav-item").removeClass('active');
-        $("#dashboard_li").addClass('active');
-    });
-
-    $(document).ready(function() {
-        reload();
-    });
-
-
-    function reload1() {
-        reload();
-
-        var ss = $("#stat_filter").val();
-
-
-        setTimeout(function() {
-            $("#stat_filter").val(ss).trigger('change');
-        }, 1000);
-
-
-
-
-
-    }
-
-    function reload() {
-
-        var filter = $("#stat_filter").val();
-        var merchant_id = $("#merchant_id").val();
-        $.ajax({
-            type: "GET",
-            url: "https://uat.evirtualpay.com/vp_interface/dashboard/data/" + filter + "/" + merchant_id,
-            success: function(data) {
-
-                data = JSON.parse(data);
-
-                $("#statistic").html(data.statistic);
-                $("#usd_ref").html(parseFloat(data.usd_ref).toFixed(2));
-                $("#usd_rec").html(parseFloat(data.usd_rec).toFixed(2));
-                $("#gbp_ref").html(parseFloat(data.gbp_ref).toFixed(2));
-                $("#gbp_rec").html(parseFloat(data.gbp_rec).toFixed(2));
-                $("#eur_ref").html(parseFloat(data.eur_ref).toFixed(2));
-                $("#eur_rec").html(parseFloat(data.eur_rec).toFixed(2));
-                $("#kes_rec").html(parseFloat(data.kes_rec).toFixed(2));
-                $("#kes_ref").html(parseFloat(data.kes_ref).toFixed(2));
-                $("#ugx_ref").html(parseFloat(data.ugx_ref).toFixed(2));
-                $("#ugx_rec").html(parseFloat(data.ugx_rec).toFixed(2));
-                $("#tsh_ref").html(parseFloat(data.tsh_ref).toFixed(2));
-                $("#tsh_rec").html(parseFloat(data.tsh_rec).toFixed(2));
-
-                $("#current_month_amount").html(data.current_month_amount.toFixed(2));
-                $("#last_month_amount").html(data.last_month_amount.toFixed(2));
-
-                $("#ten_trans").html(data.table_transaction);
-                $("#pending_bank_settlements").html(data.pending_transcation);
-
-                var usd_rec = parseFloat(data.usd_rec);
-
-                var usd_ref = parseFloat(data.usd_ref)
-                var usd_per = (usd_rec * 100) / (usd_rec + usd_ref);
-
-
-                var gbp_rec = parseFloat(data.gbp_rec);
-                var gbp_ref = parseFloat(data.gbp_ref);
-                var gbp_per = (gbp_rec * 100) / (gbp_rec + gbp_ref);
-
-                var eur_rec = parseFloat(data.eur_rec);
-                var eur_ref = parseFloat(data.eur_ref);
-                var eur_per = (eur_rec * 100) / (eur_rec + eur_ref);
-
-                var kes_rec = parseFloat(data.kes_rec);
-                var kes_ref = parseFloat(data.kes_ref);
-                var kes_per = (kes_rec * 100) / (kes_rec + kes_ref);
-
-                var ugx_rec = parseFloat(data.ugx_rec);
-                var ugx_ref = parseFloat(data.ugx_ref);
-                var ugx_per = (ugx_rec * 100) / (ugx_rec + ugx_ref);
-
-                var tsh_rec = parseFloat(data.tsh_rec);
-                var tsh_ref = parseFloat(data.tsh_ref);
-                var tsh_per = (tsh_rec * 100) / (tsh_rec + tsh_ref);
-
-                usd_per = usd_per.toFixed(2);
-
-                gbp_per = gbp_per.toFixed(2);
-                eur_per = eur_per.toFixed(2);
-                kes_per = kes_per.toFixed(2);
-                ugx_per = ugx_per.toFixed(2);
-                tsh_per = tsh_per.toFixed(2);
-
-                if (usd_per == 'NaN')
-                    usd_per = 0;
-
-                if (gbp_per == 'NaN')
-                    gbp_per = 0;
-
-                if (eur_per == 'NaN')
-                    eur_per = 0;
-
-                if (kes_per == 'NaN')
-                    kes_per = 0;
-
-                if (ugx_per == 'NaN')
-                    ugx_per = 0;
-
-                if (tsh_per == 'NaN')
-                    tsh_per = 0;
-
-
-                var $primary = '#7367F0';
-                var $success = '#28C76F';
-                var $danger = '#EA5455';
-                var $warning = '#FF9F43';
-                var $info = '#00cfe8';
-                var $primary_light = '#A9A2F6';
-                var $danger_light = '#f29292';
-                var $success_light = '#55DD92';
-                var $warning_light = '#ffc085';
-                var $info_light = '#1fcadb';
-                var $strok_color = '#b9c3cd';
-                var $label_color = '#e7e7e7';
-                var $white = '#fff';
-
-                $("#revenue-chart").html('');
-
-
-                $("#goal-overview-chart1").html('');
-
-                $("#goal-overview-chart2").html('');
-
-                $("#goal-overview-chart3").html('');
-
-                $("#goal-overview-chart4").html('');
-
-                $("#goal-overview-chart5").html('');
-
-                $("#goal-overview-chart").html('');
-
-
-                // revenue-chart Chart
-                // -----------------------------
-
-                var revenueChartoptions = {
-                    chart: {
-                        height: 270,
-                        toolbar: {
-                            show: false
-                        },
-                        type: 'line',
-                    },
-                    stroke: {
-                        curve: 'smooth',
-                        dashArray: [0, 8],
-                        width: [4, 2],
-                    },
-                    grid: {
-                        borderColor: $label_color,
-                    },
-                    legend: {
-                        show: false,
-                    },
-                    colors: [$danger_light, $strok_color],
-
-                    fill: {
-                        type: 'gradient',
-                        gradient: {
-                            shade: 'dark',
-                            inverseColors: false,
-                            gradientToColors: [$primary, $strok_color],
-                            shadeIntensity: 1,
-                            type: 'horizontal',
-                            opacityFrom: 1,
-                            opacityTo: 1,
-                            stops: [0, 100, 100, 100]
-                        },
-                    },
-                    markers: {
-                        size: 0,
-                        hover: {
-                            size: 5
-                        }
-                    },
-                    xaxis: {
-                        labels: {
-                            style: {
-                                colors: $strok_color,
-                            }
-                        },
-                        axisTicks: {
-                            show: false,
-                        },
-                        categories: data.cat,
-                        axisBorder: {
-                            show: false,
-                        },
-                        tickPlacement: 'on',
-                    },
-                    yaxis: {
-                        tickAmount: 5,
-                        labels: {
-                            style: {
-                                color: $strok_color,
-                            },
-                            formatter: function(val) {
-                                return val > 999 ? (val / 1000).toFixed(2) + 'k' : val;
-                            }
-                        }
-                    },
-                    tooltip: {
-                        x: {
-                            show: false
-                        }
-                    },
-                    series: [{
-                            name: "This Month",
-                            data: data.current_transaction
-                        },
-                        {
-                            name: "Last Month",
-                            data: data.last_transaction
-                        }
-                    ],
-
-                }
-
-                var revenueChart = new ApexCharts(
-                    document.querySelector("#revenue-chart"),
-                    revenueChartoptions
-                );
-
-                revenueChart.render();
-
-
-
-
-
-
-
-
-
-
-
-
-                // Goal Overview  Chart
-                // -----------------------------
-
-                var goalChartoptions = {
-                    chart: {
-                        height: 250,
-                        type: 'radialBar',
-                        sparkline: {
-                            enabled: true,
-                        },
-                        dropShadow: {
-                            enabled: true,
-                            blur: 3,
-                            left: 1,
-                            top: 1,
-                            opacity: 0.1
-                        },
-                    },
-                    colors: [$success],
-                    plotOptions: {
-                        radialBar: {
-                            size: 120,
-                            startAngle: -150,
-                            endAngle: 150,
-                            hollow: {
-                                size: '77%',
-                            },
-                            track: {
-                                background: $strok_color,
-                                strokeWidth: '50%',
-                            },
-                            dataLabels: {
-                                name: {
-                                    show: false
-                                },
-                                value: {
-                                    offsetY: 18,
-                                    color: '#99a2ac',
-                                    fontSize: '3rem'
-                                }
-                            }
-                        }
-                    },
-                    fill: {
-                        type: 'gradient',
-                        gradient: {
-                            shade: 'dark',
-                            type: 'horizontal',
-                            shadeIntensity: 0.5,
-                            gradientToColors: ['#00b5b5'],
-                            inverseColors: true,
-                            opacityFrom: 1,
-                            opacityTo: 1,
-                            stops: [0, 100]
-                        },
-                    },
-                    series: [usd_per],
-                    stroke: {
-                        lineCap: 'round'
-                    },
-
-                }
-
-                var goalChart = new ApexCharts(
-                    document.querySelector("#goal-overview-chart"),
-                    goalChartoptions
-                );
-
-                goalChart.render();
-
-
-
-
-                var goalChartoptions1 = {
-                    chart: {
-                        height: 250,
-                        type: 'radialBar',
-                        sparkline: {
-                            enabled: true,
-                        },
-                        dropShadow: {
-                            enabled: true,
-                            blur: 3,
-                            left: 1,
-                            top: 1,
-                            opacity: 0.1
-                        },
-                    },
-                    colors: [$success],
-                    plotOptions: {
-                        radialBar: {
-                            size: 120,
-                            startAngle: -150,
-                            endAngle: 150,
-                            hollow: {
-                                size: '77%',
-                            },
-                            track: {
-                                background: $strok_color,
-                                strokeWidth: '50%',
-                            },
-                            dataLabels: {
-                                name: {
-                                    show: false
-                                },
-                                value: {
-                                    offsetY: 18,
-                                    color: '#99a2ac',
-                                    fontSize: '3rem'
-                                }
-                            }
-                        }
-                    },
-                    fill: {
-                        type: 'gradient',
-                        gradient: {
-                            shade: 'dark',
-                            type: 'horizontal',
-                            shadeIntensity: 0.5,
-                            gradientToColors: ['#00b5b5'],
-                            inverseColors: true,
-                            opacityFrom: 1,
-                            opacityTo: 1,
-                            stops: [0, 100]
-                        },
-                    },
-                    series: [gbp_per],
-                    stroke: {
-                        lineCap: 'round'
-                    },
-
-                }
-
-                var goalChart1 = new ApexCharts(
-                    document.querySelector("#goal-overview-chart1"),
-                    goalChartoptions1
-                );
-
-                goalChart1.render();
-
-
-
-
-                var goalChartoptions2 = {
-
-                    chart: {
-                        height: 250,
-                        type: 'radialBar',
-                        sparkline: {
-                            enabled: true,
-                        },
-                        dropShadow: {
-                            enabled: true,
-                            blur: 3,
-                            left: 1,
-                            top: 1,
-                            opacity: 0.1
-                        },
-                    },
-                    colors: [$success],
-                    plotOptions: {
-                        radialBar: {
-                            size: 120,
-                            startAngle: -150,
-                            endAngle: 150,
-                            hollow: {
-                                size: '77%',
-                            },
-                            track: {
-                                background: $strok_color,
-                                strokeWidth: '50%',
-                            },
-                            dataLabels: {
-                                name: {
-                                    show: false
-                                },
-                                value: {
-                                    offsetY: 18,
-                                    color: '#99a2ac',
-                                    fontSize: '3rem'
-                                }
-                            }
-                        }
-                    },
-                    fill: {
-                        type: 'gradient',
-                        gradient: {
-                            shade: 'dark',
-                            type: 'horizontal',
-                            shadeIntensity: 0.5,
-                            gradientToColors: ['#00b5b5'],
-                            inverseColors: true,
-                            opacityFrom: 1,
-                            opacityTo: 1,
-                            stops: [0, 100]
-                        },
-                    },
-                    series: [eur_per],
-                    stroke: {
-                        lineCap: 'round'
-                    },
-
-                }
-
-                var goalChart2 = new ApexCharts(
-                    document.querySelector("#goal-overview-chart2"),
-                    goalChartoptions2
-                );
-
-                goalChart2.render();
-
-
-
-
-                var goalChartoptions3 = {
-
-                    chart: {
-                        height: 250,
-                        type: 'radialBar',
-                        sparkline: {
-                            enabled: true,
-                        },
-                        dropShadow: {
-                            enabled: true,
-                            blur: 3,
-                            left: 1,
-                            top: 1,
-                            opacity: 0.1
-                        },
-                    },
-                    colors: [$success],
-                    plotOptions: {
-                        radialBar: {
-                            size: 120,
-                            startAngle: -150,
-                            endAngle: 150,
-                            hollow: {
-                                size: '77%',
-                            },
-                            track: {
-                                background: $strok_color,
-                                strokeWidth: '50%',
-                            },
-                            dataLabels: {
-                                name: {
-                                    show: false
-                                },
-                                value: {
-                                    offsetY: 18,
-                                    color: '#99a2ac',
-                                    fontSize: '3rem'
-                                }
-                            }
-                        }
-                    },
-                    fill: {
-                        type: 'gradient',
-                        gradient: {
-                            shade: 'dark',
-                            type: 'horizontal',
-                            shadeIntensity: 0.5,
-                            gradientToColors: ['#00b5b5'],
-                            inverseColors: true,
-                            opacityFrom: 1,
-                            opacityTo: 1,
-                            stops: [0, 100]
-                        },
-                    },
-                    series: [kes_per],
-                    stroke: {
-                        lineCap: 'round'
-                    },
-
-                }
-
-                var goalChart3 = new ApexCharts(
-                    document.querySelector("#goal-overview-chart3"),
-                    goalChartoptions3
-                );
-
-                goalChart3.render();
-
-
-                var goalChartoptions4 = {
-
-                    chart: {
-                        height: 250,
-                        type: 'radialBar',
-                        sparkline: {
-                            enabled: true,
-                        },
-                        dropShadow: {
-                            enabled: true,
-                            blur: 3,
-                            left: 1,
-                            top: 1,
-                            opacity: 0.1
-                        },
-                    },
-                    colors: [$success],
-                    plotOptions: {
-                        radialBar: {
-                            size: 120,
-                            startAngle: -150,
-                            endAngle: 150,
-                            hollow: {
-                                size: '77%',
-                            },
-                            track: {
-                                background: $strok_color,
-                                strokeWidth: '50%',
-                            },
-                            dataLabels: {
-                                name: {
-                                    show: false
-                                },
-                                value: {
-                                    offsetY: 18,
-                                    color: '#99a2ac',
-                                    fontSize: '3rem'
-                                }
-                            }
-                        }
-                    },
-                    fill: {
-                        type: 'gradient',
-                        gradient: {
-                            shade: 'dark',
-                            type: 'horizontal',
-                            shadeIntensity: 0.5,
-                            gradientToColors: ['#00b5b5'],
-                            inverseColors: true,
-                            opacityFrom: 1,
-                            opacityTo: 1,
-                            stops: [0, 100]
-                        },
-                    },
-                    series: [ugx_per],
-                    stroke: {
-                        lineCap: 'round'
-                    },
-
-                }
-
-
-                var goalChart4 = new ApexCharts(
-                    document.querySelector("#goal-overview-chart4"),
-                    goalChartoptions4
-                );
-
-                goalChart4.render();
-
-
-
-                var goalChartoptions5 = {
-
-                    chart: {
-                        height: 250,
-                        type: 'radialBar',
-                        sparkline: {
-                            enabled: true,
-                        },
-                        dropShadow: {
-                            enabled: true,
-                            blur: 3,
-                            left: 1,
-                            top: 1,
-                            opacity: 0.1
-                        },
-                    },
-                    colors: [$success],
-                    plotOptions: {
-                        radialBar: {
-                            size: 120,
-                            startAngle: -150,
-                            endAngle: 150,
-                            hollow: {
-                                size: '77%',
-                            },
-                            track: {
-                                background: $strok_color,
-                                strokeWidth: '50%',
-                            },
-                            dataLabels: {
-                                name: {
-                                    show: false
-                                },
-                                value: {
-                                    offsetY: 18,
-                                    color: '#99a2ac',
-                                    fontSize: '3rem'
-                                }
-                            }
-                        }
-                    },
-                    fill: {
-                        type: 'gradient',
-                        gradient: {
-                            shade: 'dark',
-                            type: 'horizontal',
-                            shadeIntensity: 0.5,
-                            gradientToColors: ['#00b5b5'],
-                            inverseColors: true,
-                            opacityFrom: 1,
-                            opacityTo: 1,
-                            stops: [0, 100]
-                        },
-                    },
-                    series: [tsh_per],
-                    stroke: {
-                        lineCap: 'round'
-                    },
-
-                }
-
-                var goalChart5 = new ApexCharts(
-                    document.querySelector("#goal-overview-chart5"),
-                    goalChartoptions5
-                );
-
-                goalChart5.render();
-
-
-
-                // Client Retention Chart
-                // ----------------------------------
-
-
-
-
-
-
-
-
-
-
-                var clientChartoptions = {
-                    chart: {
-                        stacked: true,
-                        type: 'bar',
-                        toolbar: {
-                            show: false
-                        },
-                        height: 300,
-                    },
-                    plotOptions: {
-                        bar: {
-                            columnWidth: '10%'
-                        }
-                    },
-                    colors: [$primary, $danger],
-                    series: [{
-                        name: 'New Merchants',
-                        data: data.users_data
-                    }],
-                    grid: {
-                        borderColor: $label_color,
-                        padding: {
-                            left: 0,
-                            right: 0
-                        }
-                    },
-                    legend: {
-                        show: true,
-                        position: 'top',
-                        horizontalAlign: 'left',
-                        offsetX: 0,
-                        fontSize: '14px',
-                        markers: {
-                            radius: 50,
-                            width: 10,
-                            height: 10,
-                        }
-                    },
-                    dataLabels: {
-                        enabled: false
-                    },
-                    xaxis: {
-                        labels: {
-                            style: {
-                                colors: $strok_color,
-                            }
-                        },
-                        axisTicks: {
-                            show: false,
-                        },
-                        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep',
-                            'Oct', 'Nov', 'Dec'
-                        ],
-                        axisBorder: {
-                            show: false,
-                        },
-                    },
-                    yaxis: {
-                        tickAmount: 5,
-                        labels: {
-                            style: {
-                                color: $strok_color,
-                            }
-                        }
-                    },
-                    tooltip: {
-                        x: {
-                            show: false
-                        }
-                    },
-                }
-
-                var clientChart = new ApexCharts(
-                    document.querySelector("#client-retention-chart"),
-                    clientChartoptions
-                );
-
-                clientChart.render();
-
-
-            }
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+        <script>
+        $(window).bind("load", function() {
+            $(".nav-item").removeClass('active');
+            $("#dashboard_li").addClass('active');
+        });
+
+        $(document).ready(function() {
+            reload();
         });
 
 
-    }
-    </script>
-    <!-- END: Page JS-->
+        function reload1() {
+            reload();
 
-    <script>
-    $(document).on('show.bs.modal', '.modal', function() {
-        var zIndex = 1040 + (10 * $('.modal:visible').length);
-        $(this).css('z-index', zIndex);
-        setTimeout(function() {
-            $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass(
-                'modal-stack');
-        }, 0);
-    });
+            var ss = $("#stat_filter").val();
 
-    function open_edit() {
-        if ($('#edit_menu').is(':hidden')) {
-            $("#edit_menu").show();
-        } else {
-            $("#edit_menu").hide();
+
+            setTimeout(function() {
+                $("#stat_filter").val(ss).trigger('change');
+            }, 1000);
+
+
+
+
+
         }
-    }
-    </script>
+
+        function reload() {
+
+            var filter = $("#stat_filter").val();
+            var merchant_id = $("#merchant_id").val();
+            $.ajax({
+                type: "GET",
+                url: "https://uat.evirtualpay.com/vp_interface/dashboard/data/" + filter + "/" + merchant_id,
+                success: function(data) {
+
+                    data = JSON.parse(data);
+
+                    $("#statistic").html(data.statistic);
+                    $("#usd_ref").html(parseFloat(data.usd_ref).toFixed(2));
+                    $("#usd_rec").html(parseFloat(data.usd_rec).toFixed(2));
+                    $("#gbp_ref").html(parseFloat(data.gbp_ref).toFixed(2));
+                    $("#gbp_rec").html(parseFloat(data.gbp_rec).toFixed(2));
+                    $("#eur_ref").html(parseFloat(data.eur_ref).toFixed(2));
+                    $("#eur_rec").html(parseFloat(data.eur_rec).toFixed(2));
+                    $("#kes_rec").html(parseFloat(data.kes_rec).toFixed(2));
+                    $("#kes_ref").html(parseFloat(data.kes_ref).toFixed(2));
+                    $("#ugx_ref").html(parseFloat(data.ugx_ref).toFixed(2));
+                    $("#ugx_rec").html(parseFloat(data.ugx_rec).toFixed(2));
+                    $("#tsh_ref").html(parseFloat(data.tsh_ref).toFixed(2));
+                    $("#tsh_rec").html(parseFloat(data.tsh_rec).toFixed(2));
+
+                    $("#current_month_amount").html(data.current_month_amount.toFixed(2));
+                    $("#last_month_amount").html(data.last_month_amount.toFixed(2));
+
+                    $("#ten_trans").html(data.table_transaction);
+                    $("#pending_bank_settlements").html(data.pending_transcation);
+
+                    var usd_rec = parseFloat(data.usd_rec);
+
+                    var usd_ref = parseFloat(data.usd_ref)
+                    var usd_per = (usd_rec * 100) / (usd_rec + usd_ref);
+
+
+                    var gbp_rec = parseFloat(data.gbp_rec);
+                    var gbp_ref = parseFloat(data.gbp_ref);
+                    var gbp_per = (gbp_rec * 100) / (gbp_rec + gbp_ref);
+
+                    var eur_rec = parseFloat(data.eur_rec);
+                    var eur_ref = parseFloat(data.eur_ref);
+                    var eur_per = (eur_rec * 100) / (eur_rec + eur_ref);
+
+                    var kes_rec = parseFloat(data.kes_rec);
+                    var kes_ref = parseFloat(data.kes_ref);
+                    var kes_per = (kes_rec * 100) / (kes_rec + kes_ref);
+
+                    var ugx_rec = parseFloat(data.ugx_rec);
+                    var ugx_ref = parseFloat(data.ugx_ref);
+                    var ugx_per = (ugx_rec * 100) / (ugx_rec + ugx_ref);
+
+                    var tsh_rec = parseFloat(data.tsh_rec);
+                    var tsh_ref = parseFloat(data.tsh_ref);
+                    var tsh_per = (tsh_rec * 100) / (tsh_rec + tsh_ref);
+
+                    usd_per = usd_per.toFixed(2);
+
+                    gbp_per = gbp_per.toFixed(2);
+                    eur_per = eur_per.toFixed(2);
+                    kes_per = kes_per.toFixed(2);
+                    ugx_per = ugx_per.toFixed(2);
+                    tsh_per = tsh_per.toFixed(2);
+
+                    if (usd_per == 'NaN')
+                        usd_per = 0;
+
+                    if (gbp_per == 'NaN')
+                        gbp_per = 0;
+
+                    if (eur_per == 'NaN')
+                        eur_per = 0;
+
+                    if (kes_per == 'NaN')
+                        kes_per = 0;
+
+                    if (ugx_per == 'NaN')
+                        ugx_per = 0;
+
+                    if (tsh_per == 'NaN')
+                        tsh_per = 0;
+
+
+                    var $primary = '#7367F0';
+                    var $success = '#28C76F';
+                    var $danger = '#EA5455';
+                    var $warning = '#FF9F43';
+                    var $info = '#00cfe8';
+                    var $primary_light = '#A9A2F6';
+                    var $danger_light = '#f29292';
+                    var $success_light = '#55DD92';
+                    var $warning_light = '#ffc085';
+                    var $info_light = '#1fcadb';
+                    var $strok_color = '#b9c3cd';
+                    var $label_color = '#e7e7e7';
+                    var $white = '#fff';
+
+                    $("#revenue-chart").html('');
+
+
+                    $("#goal-overview-chart1").html('');
+
+                    $("#goal-overview-chart2").html('');
+
+                    $("#goal-overview-chart3").html('');
+
+                    $("#goal-overview-chart4").html('');
+
+                    $("#goal-overview-chart5").html('');
+
+                    $("#goal-overview-chart").html('');
+
+
+                    // revenue-chart Chart
+                    // -----------------------------
+
+                    var revenueChartoptions = {
+                        chart: {
+                            height: 270,
+                            toolbar: {
+                                show: false
+                            },
+                            type: 'line',
+                        },
+                        stroke: {
+                            curve: 'smooth',
+                            dashArray: [0, 8],
+                            width: [4, 2],
+                        },
+                        grid: {
+                            borderColor: $label_color,
+                        },
+                        legend: {
+                            show: false,
+                        },
+                        colors: [$danger_light, $strok_color],
+
+                        fill: {
+                            type: 'gradient',
+                            gradient: {
+                                shade: 'dark',
+                                inverseColors: false,
+                                gradientToColors: [$primary, $strok_color],
+                                shadeIntensity: 1,
+                                type: 'horizontal',
+                                opacityFrom: 1,
+                                opacityTo: 1,
+                                stops: [0, 100, 100, 100]
+                            },
+                        },
+                        markers: {
+                            size: 0,
+                            hover: {
+                                size: 5
+                            }
+                        },
+                        xaxis: {
+                            labels: {
+                                style: {
+                                    colors: $strok_color,
+                                }
+                            },
+                            axisTicks: {
+                                show: false,
+                            },
+                            categories: data.cat,
+                            axisBorder: {
+                                show: false,
+                            },
+                            tickPlacement: 'on',
+                        },
+                        yaxis: {
+                            tickAmount: 5,
+                            labels: {
+                                style: {
+                                    color: $strok_color,
+                                },
+                                formatter: function(val) {
+                                    return val > 999 ? (val / 1000).toFixed(2) + 'k' : val;
+                                }
+                            }
+                        },
+                        tooltip: {
+                            x: {
+                                show: false
+                            }
+                        },
+                        series: [{
+                                name: "This Month",
+                                data: data.current_transaction
+                            },
+                            {
+                                name: "Last Month",
+                                data: data.last_transaction
+                            }
+                        ],
+
+                    }
+
+                    var revenueChart = new ApexCharts(
+                        document.querySelector("#revenue-chart"),
+                        revenueChartoptions
+                    );
+
+                    revenueChart.render();
+
+
+
+
+
+
+
+
+
+
+
+
+                    // Goal Overview  Chart
+                    // -----------------------------
+
+                    var goalChartoptions = {
+                        chart: {
+                            height: 250,
+                            type: 'radialBar',
+                            sparkline: {
+                                enabled: true,
+                            },
+                            dropShadow: {
+                                enabled: true,
+                                blur: 3,
+                                left: 1,
+                                top: 1,
+                                opacity: 0.1
+                            },
+                        },
+                        colors: [$success],
+                        plotOptions: {
+                            radialBar: {
+                                size: 120,
+                                startAngle: -150,
+                                endAngle: 150,
+                                hollow: {
+                                    size: '77%',
+                                },
+                                track: {
+                                    background: $strok_color,
+                                    strokeWidth: '50%',
+                                },
+                                dataLabels: {
+                                    name: {
+                                        show: false
+                                    },
+                                    value: {
+                                        offsetY: 18,
+                                        color: '#99a2ac',
+                                        fontSize: '3rem'
+                                    }
+                                }
+                            }
+                        },
+                        fill: {
+                            type: 'gradient',
+                            gradient: {
+                                shade: 'dark',
+                                type: 'horizontal',
+                                shadeIntensity: 0.5,
+                                gradientToColors: ['#00b5b5'],
+                                inverseColors: true,
+                                opacityFrom: 1,
+                                opacityTo: 1,
+                                stops: [0, 100]
+                            },
+                        },
+                        series: [usd_per],
+                        stroke: {
+                            lineCap: 'round'
+                        },
+
+                    }
+
+                    var goalChart = new ApexCharts(
+                        document.querySelector("#goal-overview-chart"),
+                        goalChartoptions
+                    );
+
+                    goalChart.render();
+
+
+
+
+                    var goalChartoptions1 = {
+                        chart: {
+                            height: 250,
+                            type: 'radialBar',
+                            sparkline: {
+                                enabled: true,
+                            },
+                            dropShadow: {
+                                enabled: true,
+                                blur: 3,
+                                left: 1,
+                                top: 1,
+                                opacity: 0.1
+                            },
+                        },
+                        colors: [$success],
+                        plotOptions: {
+                            radialBar: {
+                                size: 120,
+                                startAngle: -150,
+                                endAngle: 150,
+                                hollow: {
+                                    size: '77%',
+                                },
+                                track: {
+                                    background: $strok_color,
+                                    strokeWidth: '50%',
+                                },
+                                dataLabels: {
+                                    name: {
+                                        show: false
+                                    },
+                                    value: {
+                                        offsetY: 18,
+                                        color: '#99a2ac',
+                                        fontSize: '3rem'
+                                    }
+                                }
+                            }
+                        },
+                        fill: {
+                            type: 'gradient',
+                            gradient: {
+                                shade: 'dark',
+                                type: 'horizontal',
+                                shadeIntensity: 0.5,
+                                gradientToColors: ['#00b5b5'],
+                                inverseColors: true,
+                                opacityFrom: 1,
+                                opacityTo: 1,
+                                stops: [0, 100]
+                            },
+                        },
+                        series: [gbp_per],
+                        stroke: {
+                            lineCap: 'round'
+                        },
+
+                    }
+
+                    var goalChart1 = new ApexCharts(
+                        document.querySelector("#goal-overview-chart1"),
+                        goalChartoptions1
+                    );
+
+                    goalChart1.render();
+
+
+
+
+                    var goalChartoptions2 = {
+
+                        chart: {
+                            height: 250,
+                            type: 'radialBar',
+                            sparkline: {
+                                enabled: true,
+                            },
+                            dropShadow: {
+                                enabled: true,
+                                blur: 3,
+                                left: 1,
+                                top: 1,
+                                opacity: 0.1
+                            },
+                        },
+                        colors: [$success],
+                        plotOptions: {
+                            radialBar: {
+                                size: 120,
+                                startAngle: -150,
+                                endAngle: 150,
+                                hollow: {
+                                    size: '77%',
+                                },
+                                track: {
+                                    background: $strok_color,
+                                    strokeWidth: '50%',
+                                },
+                                dataLabels: {
+                                    name: {
+                                        show: false
+                                    },
+                                    value: {
+                                        offsetY: 18,
+                                        color: '#99a2ac',
+                                        fontSize: '3rem'
+                                    }
+                                }
+                            }
+                        },
+                        fill: {
+                            type: 'gradient',
+                            gradient: {
+                                shade: 'dark',
+                                type: 'horizontal',
+                                shadeIntensity: 0.5,
+                                gradientToColors: ['#00b5b5'],
+                                inverseColors: true,
+                                opacityFrom: 1,
+                                opacityTo: 1,
+                                stops: [0, 100]
+                            },
+                        },
+                        series: [eur_per],
+                        stroke: {
+                            lineCap: 'round'
+                        },
+
+                    }
+
+                    var goalChart2 = new ApexCharts(
+                        document.querySelector("#goal-overview-chart2"),
+                        goalChartoptions2
+                    );
+
+                    goalChart2.render();
+
+
+
+
+                    var goalChartoptions3 = {
+
+                        chart: {
+                            height: 250,
+                            type: 'radialBar',
+                            sparkline: {
+                                enabled: true,
+                            },
+                            dropShadow: {
+                                enabled: true,
+                                blur: 3,
+                                left: 1,
+                                top: 1,
+                                opacity: 0.1
+                            },
+                        },
+                        colors: [$success],
+                        plotOptions: {
+                            radialBar: {
+                                size: 120,
+                                startAngle: -150,
+                                endAngle: 150,
+                                hollow: {
+                                    size: '77%',
+                                },
+                                track: {
+                                    background: $strok_color,
+                                    strokeWidth: '50%',
+                                },
+                                dataLabels: {
+                                    name: {
+                                        show: false
+                                    },
+                                    value: {
+                                        offsetY: 18,
+                                        color: '#99a2ac',
+                                        fontSize: '3rem'
+                                    }
+                                }
+                            }
+                        },
+                        fill: {
+                            type: 'gradient',
+                            gradient: {
+                                shade: 'dark',
+                                type: 'horizontal',
+                                shadeIntensity: 0.5,
+                                gradientToColors: ['#00b5b5'],
+                                inverseColors: true,
+                                opacityFrom: 1,
+                                opacityTo: 1,
+                                stops: [0, 100]
+                            },
+                        },
+                        series: [kes_per],
+                        stroke: {
+                            lineCap: 'round'
+                        },
+
+                    }
+
+                    var goalChart3 = new ApexCharts(
+                        document.querySelector("#goal-overview-chart3"),
+                        goalChartoptions3
+                    );
+
+                    goalChart3.render();
+
+
+                    var goalChartoptions4 = {
+
+                        chart: {
+                            height: 250,
+                            type: 'radialBar',
+                            sparkline: {
+                                enabled: true,
+                            },
+                            dropShadow: {
+                                enabled: true,
+                                blur: 3,
+                                left: 1,
+                                top: 1,
+                                opacity: 0.1
+                            },
+                        },
+                        colors: [$success],
+                        plotOptions: {
+                            radialBar: {
+                                size: 120,
+                                startAngle: -150,
+                                endAngle: 150,
+                                hollow: {
+                                    size: '77%',
+                                },
+                                track: {
+                                    background: $strok_color,
+                                    strokeWidth: '50%',
+                                },
+                                dataLabels: {
+                                    name: {
+                                        show: false
+                                    },
+                                    value: {
+                                        offsetY: 18,
+                                        color: '#99a2ac',
+                                        fontSize: '3rem'
+                                    }
+                                }
+                            }
+                        },
+                        fill: {
+                            type: 'gradient',
+                            gradient: {
+                                shade: 'dark',
+                                type: 'horizontal',
+                                shadeIntensity: 0.5,
+                                gradientToColors: ['#00b5b5'],
+                                inverseColors: true,
+                                opacityFrom: 1,
+                                opacityTo: 1,
+                                stops: [0, 100]
+                            },
+                        },
+                        series: [ugx_per],
+                        stroke: {
+                            lineCap: 'round'
+                        },
+
+                    }
+
+
+                    var goalChart4 = new ApexCharts(
+                        document.querySelector("#goal-overview-chart4"),
+                        goalChartoptions4
+                    );
+
+                    goalChart4.render();
+
+
+
+                    var goalChartoptions5 = {
+
+                        chart: {
+                            height: 250,
+                            type: 'radialBar',
+                            sparkline: {
+                                enabled: true,
+                            },
+                            dropShadow: {
+                                enabled: true,
+                                blur: 3,
+                                left: 1,
+                                top: 1,
+                                opacity: 0.1
+                            },
+                        },
+                        colors: [$success],
+                        plotOptions: {
+                            radialBar: {
+                                size: 120,
+                                startAngle: -150,
+                                endAngle: 150,
+                                hollow: {
+                                    size: '77%',
+                                },
+                                track: {
+                                    background: $strok_color,
+                                    strokeWidth: '50%',
+                                },
+                                dataLabels: {
+                                    name: {
+                                        show: false
+                                    },
+                                    value: {
+                                        offsetY: 18,
+                                        color: '#99a2ac',
+                                        fontSize: '3rem'
+                                    }
+                                }
+                            }
+                        },
+                        fill: {
+                            type: 'gradient',
+                            gradient: {
+                                shade: 'dark',
+                                type: 'horizontal',
+                                shadeIntensity: 0.5,
+                                gradientToColors: ['#00b5b5'],
+                                inverseColors: true,
+                                opacityFrom: 1,
+                                opacityTo: 1,
+                                stops: [0, 100]
+                            },
+                        },
+                        series: [tsh_per],
+                        stroke: {
+                            lineCap: 'round'
+                        },
+
+                    }
+
+                    var goalChart5 = new ApexCharts(
+                        document.querySelector("#goal-overview-chart5"),
+                        goalChartoptions5
+                    );
+
+                    goalChart5.render();
+
+
+
+                    // Client Retention Chart
+                    // ----------------------------------
+
+
+
+
+
+
+
+
+
+
+                    var clientChartoptions = {
+                        chart: {
+                            stacked: true,
+                            type: 'bar',
+                            toolbar: {
+                                show: false
+                            },
+                            height: 300,
+                        },
+                        plotOptions: {
+                            bar: {
+                                columnWidth: '10%'
+                            }
+                        },
+                        colors: [$primary, $danger],
+                        series: [{
+                            name: 'New Merchants',
+                            data: data.users_data
+                        }],
+                        grid: {
+                            borderColor: $label_color,
+                            padding: {
+                                left: 0,
+                                right: 0
+                            }
+                        },
+                        legend: {
+                            show: true,
+                            position: 'top',
+                            horizontalAlign: 'left',
+                            offsetX: 0,
+                            fontSize: '14px',
+                            markers: {
+                                radius: 50,
+                                width: 10,
+                                height: 10,
+                            }
+                        },
+                        dataLabels: {
+                            enabled: false
+                        },
+                        xaxis: {
+                            labels: {
+                                style: {
+                                    colors: $strok_color,
+                                }
+                            },
+                            axisTicks: {
+                                show: false,
+                            },
+                            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep',
+                                'Oct', 'Nov', 'Dec'
+                            ],
+                            axisBorder: {
+                                show: false,
+                            },
+                        },
+                        yaxis: {
+                            tickAmount: 5,
+                            labels: {
+                                style: {
+                                    color: $strok_color,
+                                }
+                            }
+                        },
+                        tooltip: {
+                            x: {
+                                show: false
+                            }
+                        },
+                    }
+
+                    var clientChart = new ApexCharts(
+                        document.querySelector("#client-retention-chart"),
+                        clientChartoptions
+                    );
+
+                    clientChart.render();
+
+
+                }
+
+            });
+
+
+        }
+        </script>
+        <!-- END: Page JS-->
+
+        <script>
+        $(document).on('show.bs.modal', '.modal', function() {
+            var zIndex = 1040 + (10 * $('.modal:visible').length);
+            $(this).css('z-index', zIndex);
+            setTimeout(function() {
+                $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass(
+                    'modal-stack');
+            }, 0);
+        });
+
+        function open_edit() {
+            if ($('#edit_menu').is(':hidden')) {
+                $("#edit_menu").show();
+            } else {
+                $("#edit_menu").hide();
+            }
+        }
+        </script>
 
 
 
