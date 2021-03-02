@@ -24,3 +24,8 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 
 });
+
+Route::get('/monitoring', function () {
+    return view('monitoring');
+
+});
