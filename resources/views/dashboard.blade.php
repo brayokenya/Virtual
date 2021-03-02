@@ -396,31 +396,55 @@ body {
 
     <!-- BEGIN: Content-->
     <div class="app-content content">
-
-
-
-
-
-
-
-
         <div class="content-overlay"></div>
         <div class="header-navbar-shadow"></div>
         <div class="content-wrapper">
-
-
-
-
-            <!-- Data list view starts -->
             <section id="horizontal-vertical">
-
-                <div class="row">
-
-
-
-
-
+                <div class="col-12">
+                    <h2 class="content-header-title float-left mb-0">Monitoring</h2>
                 </div>
+            </section>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xl-4 col-md-4 col-sm-6">
+                <div class="card text-center">
+                    <div class="card-content">
+                        <div class="card-body">
+                            <div style="font-size:20px;display:inline">USD 14,456
+                            </div>
+                            <div class="avatar bg-rgba-info p-50 m-0 mb-1">
+                                <div class="avatar-content">
+                                    <i class="fa fa-usd" style="font-size:10px;color:#163782"></i>
+                                </div>
+                            </div>
+
+
+                            <div class="card-body px-0 pb-0">
+                                <div id="goal-overview-chart" class="mt-75"></div>
+                                <div class="row text-center mx-0">
+                                    <div
+                                        class="col-6 border-top border-right d-flex align-items-between flex-column py-1">
+                                        <p class="mb-50">Total Value</p>
+                                        <p class="font-large-1 text-bold-700" id="usd_rec"></p>
+                                    </div>
+                                    <div class="col-6 border-top d-flex align-items-between flex-column py-1">
+                                        <p class="mb-50">Refund</p>
+                                        <p class="font-large-1 text-bold-700" id="usd_ref"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
         </div>
 
 
@@ -446,7 +470,8 @@ body {
         crossorigin="anonymous" />
 
     <!-- BEGIN: Vendor JS-->
-    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/vendors.min.js"></script>
+    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/vendors.min.js">
+    </script>
     <!-- BEGIN Vendor JS-->
 
     <!-- BEGIN: Page Vendor JS-->
@@ -456,7 +481,8 @@ body {
     </script>
 
     <!-- BEGIN: Vendor JS-->
-    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/vendors.min.js"></script>
+    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/vendors.min.js">
+    </script>
     <!-- BEGIN Vendor JS-->
     <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/extensions/moment.min.js">
     </script>
@@ -493,7 +519,8 @@ body {
 
 
 
-    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/components.js"></script>
+    <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/components.js">
+    </script>
     <!-- END: Theme JS-->
     <script
         src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/forms/select/select2.full.min.js">
@@ -1305,7 +1332,8 @@ body {
         var zIndex = 1040 + (10 * $('.modal:visible').length);
         $(this).css('z-index', zIndex);
         setTimeout(function() {
-            $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass('modal-stack');
+            $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass(
+                'modal-stack');
         }, 0);
     });
 
