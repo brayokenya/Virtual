@@ -230,9 +230,8 @@ body {
 
 
 
-                <li class=" nav-item" id="transaction_report_li"><a
-                        href="https://uat.evirtualpay.com/vp_interface/transaction-report"><i
-                            class="fa fa-check-circle"></i><span class="menu-title" data-i18n="Dashboard">Successful
+                <li class=" nav-item" id="transaction_report_li"><a href=""><i class="fa fa-check-circle"></i><span
+                            class="menu-title" data-i18n="Dashboard">Successful
                             Transactions</span></a>
                 </li>
 
@@ -242,10 +241,8 @@ body {
 
 
 
-                <li class=" nav-item" id="payment_li"><a
-                        href="https://uat.evirtualpay.com/vp_interface/payment-branding/OiKSML7DDki6MboCrE3aaKEYSYrMmAoSgS5WRnhk4q8nZN4Koij7LT"
-                        target="_blank"><i class="fa fa-shopping-bag"></i><span class="menu-title"
-                            data-i18n="Dashboard">My Checkout Page</span></a>
+                <li class=" nav-item" id="payment_li"><a href=""><i class="fa fa-shopping-bag"></i><span
+                            class="menu-title" data-i18n="Dashboard">My Checkout Page</span></a>
                 </li>
 
 
@@ -254,9 +251,8 @@ body {
 
 
 
-                <li class=" nav-item" id="refund_li"><a
-                        href="https://uat.evirtualpay.com/vp_interface/refund-request"><i class="fa fa-undo"></i><span
-                            class="menu-title" data-i18n="Dashboard">Refund Request
+                <li class=" nav-item" id="refund_li"><a href=""><i class="fa fa-undo"></i><span class="menu-title"
+                            data-i18n="Dashboard">Refund Request
                             <button type="button" class="btn btn-danger btn-circle btn-sm" style="width: 30px; 
             height: 30px; 
             padding: 6px 0px; 
@@ -275,10 +271,8 @@ body {
 
 
 
-                <li class=" nav-item" id="settlement_li"><a
-                        href="https://uat.evirtualpay.com/vp_interface/settlement-bank"><i
-                            class="  fa fa-angle-double-right   "></i><span class="menu-title"
-                            data-i18n="Dashboard">Settlements</span></a>
+                <li class=" nav-item" id="settlement_li"><a href=""><i class="  fa fa-angle-double-right   "></i><span
+                            class="menu-title" data-i18n="Dashboard">Settlements</span></a>
                 </li>
 
 
@@ -286,8 +280,8 @@ body {
 
 
 
-                <li class=" nav-item" id="settlement_li"><a href="https://uat.evirtualpay.com/vp_interface/reports"><i
-                            class="fa fa-bars"></i><span class="menu-title" data-i18n="Dashboard">Reports</span></a>
+                <li class=" nav-item" id="settlement_li"><a href=""><i class="fa fa-bars"></i><span class="menu-title"
+                            data-i18n="Dashboard">Reports</span></a>
                 </li>
 
 
@@ -299,8 +293,8 @@ body {
                     <ul class="menu-content show" style="background: #2E2937 ;">
 
 
-                        <li class=" nav-item" id="user_li"><a href="https://uat.evirtualpay.com/vp_interface/users"><i
-                                    class=" fa fa-user "></i><span class="menu-title" data-i18n="Dashboard">User
+                        <li class=" nav-item" id="user_li"><a href=""><i class=" fa fa-user "></i><span
+                                    class="menu-title" data-i18n="Dashboard">User
                                     Management</span></a>
                         </li>
 
@@ -308,8 +302,8 @@ body {
 
 
 
-                        <li class=" nav-item" id="roles_li"><a href="https://uat.evirtualpay.com/vp_interface/roles"><i
-                                    class="  fa fa-key   "></i><span class="menu-title" data-i18n="Dashboard">Role
+                        <li class=" nav-item" id="roles_li"><a href=""><i class="  fa fa-key   "></i><span
+                                    class="menu-title" data-i18n="Dashboard">Role
                                     Management</span></a>
                         </li>
 
@@ -326,17 +320,14 @@ body {
                     <ul class="menu-content show" style="background: #2E2937 ;">
 
 
-                        <li class=" nav-item" id="api_li"><a
-                                href="https://uat.evirtualpay.com/vp_interface/api-management"><i
-                                    class="fa fa-key"></i><span class="menu-title" data-i18n="Dashboard">API Credentials
+                        <li class=" nav-item" id="api_li"><a href=""><i class="fa fa-key"></i><span class="menu-title"
+                                    data-i18n="Dashboard">API Credentials
                                 </span></a>
                         </li>
 
 
-                        <li class=" nav-item" id="api_li"><a
-                                href="https://uat.evirtualpay.com/vp_interface/pdf_guide"><i
-                                    class=" fa fa-question-circle "></i><span class="menu-title"
-                                    data-i18n="Dashboard">User Guide</span></a>
+                        <li class=" nav-item" id="api_li"><a href=""><i class=" fa fa-question-circle "></i><span
+                                    class="menu-title" data-i18n="Dashboard">User Guide</span></a>
                         </li>
 
 
@@ -356,9 +347,7 @@ body {
 
 
 
-                <li class=" nav-item"> <a class="dropdown-item" href="welcome" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();"><i
-                            class="fa fa-power-off"></i> Logout</a>
+                <li class=" nav-item"> <a class="dropdown-item" href="/"><i class="fa fa-power-off"></i> Logout</a>
                     <form id="logout-form" action="welcome" method="POST" style="display: none;">
                         <input type="hidden" name="_token" value="1C5h289Ij2qc89RhfsIGTN4cvsa52ND56aBBHYPq">
                     </form>
