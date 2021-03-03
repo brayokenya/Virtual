@@ -14,7 +14,7 @@
         href="https://evirtualpay.com/v2/vp_interface/includes_new/app-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon"
         href="https://evirtualpay.com/v2/vp_interface/includes_new/app-assets/images/ico/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css"

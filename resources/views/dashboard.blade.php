@@ -398,20 +398,20 @@ body {
 
 
                 <div class="row">
-                    <div class="col-xl-4 col-md-4 col-sm-6">
+                    <div class="col-xl-4 col-md-4 col-sm-8">
                         <div class="card text-center">
                             <div class="card-content">
                                 <div class="card-body">
-                                    <div style="font-size:20px;display:inline">USD 14,456
+                                    <div style="font-size:40px;display:inline">USD 14,456
                                     </div>
                                     <div class="avatar bg-rgba-info p-50 m-0 mb-1">
                                         <div class="avatar-content">
-                                            <i class="fa fa-usd" style="font-size:10px;color:#163782"></i>
+                                            <i class="fa fa-usd" style="font-size:40px;color:#9D1B92"></i>
                                         </div>
                                     </div>
 
 
-                                    <div class="card-body px-0 pb-0">
+                                    <div class="card-body">
                                         <div id="goal-overview-chart" class="mt-75"></div>
                                         <div class="row text-center mx-0">
                                             <div
@@ -420,7 +420,7 @@ body {
                                                 <p class="font-large-1 text-bold-700" id="usd_rec"></p>
                                             </div>
                                             <div class="col-6 border-top d-flex align-items-between flex-column py-1">
-                                                <p class="mb-50">Refund USD 1,000</p>
+                                                <p class="mb-70">Refund USD 1,000</p>
                                                 <p class="font-large-1 text-bold-700" id="usd_ref"></p>
                                             </div>
                                         </div>
@@ -430,10 +430,6 @@ body {
                             </div>
                         </div>
                     </div>
-
-
-
-
 
                 </div>
 
@@ -470,70 +466,7 @@ body {
             integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
         </script>
 
-        <!-- BEGIN: Vendor JS-->
-        <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/vendors.min.js">
-        </script>
-        <!-- BEGIN Vendor JS-->
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/extensions/moment.min.js">
-        </script>
-        <!-- BEGIN: Page Vendor JS-->
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/pdfmake.min.js">
-        </script>
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/vfs_fonts.js">
-        </script>
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/datatables.min.js">
-        </script>
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/datatables.buttons.min.js">
-        </script>
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/buttons.html5.min.js">
-        </script>
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/buttons.print.min.js">
-        </script>
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/buttons.bootstrap.min.js">
-        </script>
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js">
-        </script>
-        <!-- END: Page Vendor JS-->
 
-        <!-- BEGIN: Theme JS-->
-        <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/core/app-menu.js"></script>
-        <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/core/app.js"></script>
-
-
-
-        <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/components.js">
-        </script>
-        <!-- END: Theme JS-->
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/forms/select/select2.full.min.js">
-        </script>
-
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/forms/select/form-select2.js">
-        </script>
-        <!-- BEGIN: Page JS-->
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/datatables/datatable.js">
-        </script>
-
-        <script src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/js/scripts/pages/app-user.js">
-        </script>
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/charts/apexcharts.min.js">
-        </script>
-
-        <script
-            src="https://uat.evirtualpay.com/vp_interface/includes_new/app-assets/vendors/js/extensions/sweetalert2.all.min.js">
-        </script>
 
         <!-- BEGIN: Page JS-->
 
