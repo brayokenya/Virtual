@@ -131,7 +131,7 @@ body {
                         <ul class="nav navbar-nav">
                             <li class="nav-item mobile-menu d-xl-none mr-auto"><a
                                     class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i
-                                        class=" fa fa-expand      "></i></a></li>
+                                        class=" fa fa-expand "></i></a></li>
                         </ul>
 
 

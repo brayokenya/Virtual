@@ -398,7 +398,7 @@ body {
 
 
                 <div class="row">
-                    <div class="col-xl-4 col-md-4 col-sm-8">
+                    <div class="column">
                         <div class="card text-center">
                             <div class="card-content">
                                 <div class="card-body">
@@ -432,6 +432,44 @@ body {
                     </div>
 
                 </div>
+
+
+                <div class="row">
+                    <div class="column">
+                        <div class="card text-center">
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <div style="font-size:40px;display:inline">EURO 14,456
+                                    </div>
+                                    <div class="avatar bg-rgba-info p-50 m-0 mb-1">
+                                        <div class="avatar-content">
+                                            <i class="fa fa-euro" style="font-size:40px;color:#9D1B92"></i>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="card-body">
+                                        <div id="goal-overview-chart" class="mt-75"></div>
+                                        <div class="row text-center mx-0">
+                                            <div
+                                                class="col-6 border-top border-right d-flex align-items-between flex-column py-1">
+                                                <p class="mb-50">Total Value USD 14,456</p>
+                                                <p class="font-large-1 text-bold-700" id="usd_rec"></p>
+                                            </div>
+                                            <div class="col-6 border-top d-flex align-items-between flex-column py-1">
+                                                <p class="mb-70">Refund USD 1,000</p>
+                                                <p class="font-large-1 text-bold-700" id="usd_ref"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
 
 
 
@@ -468,18 +506,9 @@ body {
 
 
 
-        <!-- BEGIN: Page JS-->
-
-        <!-- Typeahead.js Bundle -->
-        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>  
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>   -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
-        <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 
@@ -716,15 +745,6 @@ body {
                     );
 
                     revenueChart.render();
-
-
-
-
-
-
-
-
-
 
 
 
